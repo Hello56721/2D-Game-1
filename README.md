@@ -1,5 +1,9 @@
 # 2D-Game-1
-This is a 2D Game I made using OpenGL. It is pretty simple, and my first OpenGL program.
-It is also an Eclipse CDT project, so if you want to build it from source, you need that. 
-It also requires GLFW and LLVM Clang, so you need to install those and install the LLVM Compiler
-family support for eclipse.
+This is a 2D Game I made using OpenGL. It is pretty simple, and my first OpenGL program.<br>
+It also need the following library which are not included:<br>
+<ol>
+  <li>-GLFW include</li>
+  <li>-GLAD include</li>
+</ol>
+
+You will need to get those libraries yourself. If you don't bother to compile the source code, then you can get a prebuilt binary for windows in the "Debug" folder
